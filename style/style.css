@@ -7,11 +7,12 @@ body{
     color: #FD6E0A;
 }
 
-/* Creating inline display */
+/* Nav related style */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 .nav-title{
@@ -38,4 +39,16 @@ nav a{
     font-weight: 700;
     color: white;
     padding: 15px 35px;
+}
+/* Header related style */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
