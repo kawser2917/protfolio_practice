@@ -1,0 +1,41 @@
+/* Shared font  Style  */
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.primary-color{
+    color: #FD6E0A;
+}
+
+/* Creating inline display */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+.btn-primary{
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: 0;
+    font-weight: 700;
+    color: white;
+    padding: 15px 35px;
+}
