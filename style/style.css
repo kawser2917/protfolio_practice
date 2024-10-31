@@ -118,6 +118,10 @@ main {
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 /* Main section end */
 .about {
     padding: 131px;
@@ -159,4 +163,36 @@ main {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
+}
+
+/* Resume section */
+.resume-container {
+    display: flex;
+    gap: 74px;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-item-instution {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.resume-item-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    border-color: 1px solid #D1D1D1;
 }
